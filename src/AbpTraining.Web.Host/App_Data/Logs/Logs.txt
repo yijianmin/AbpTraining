@@ -1,0 +1,364 @@
+DEBUG 2019-01-18 15:34:12,388 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 15:34:12,487 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 15:34:12,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.Web.Host.Startup.AbpTrainingWebHostModule, AbpTraining.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingWebCoreModule, AbpTraining.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingApplicationModule, AbpTraining.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingCoreModule, AbpTraining.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.EntityFrameworkCore.AbpTrainingEntityFrameworkModule, AbpTraining.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:12,514 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 15:34:12,594 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 15:34:12,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 15:34:12,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTraining (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 15:34:12,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 15:34:12,991 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTraining.EntityFrameworkCore.AbpTrainingDbContext, AbpTraining.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 15:34:14,284 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 15:34:14,385 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 15:34:14,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 15:34:14,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTraining
+DEBUG 2019-01-18 15:34:14,509 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 15:34:14,732 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 15:34:14,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-01-18 15:34:14,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 15:34:14,794 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 15:34:14,795 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Users.Dto.UserDto
+DEBUG 2019-01-18 15:34:14,795 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 15:34:14,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 15:34:14,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 15:34:14,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 15:34:14,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.RoleDto
+DEBUG 2019-01-18 15:34:14,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 15:34:14,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.MultiTenancy.Dto.TenantDto
+INFO  2019-01-18 15:34:22,824 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 15:34:22,824 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-18 15:34:22,955 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.7626ms 200 
+INFO  2019-01-18 15:34:27,344 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host)
+INFO  2019-01-18 15:34:28,712 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host) - Validation state: Valid
+INFO  2019-01-18 15:34:28,718 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.0593ms.
+INFO  2019-01-18 15:34:28,862 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-01-18 15:34:28,875 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host) in 1523.9111ms
+INFO  2019-01-18 15:34:28,903 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-01-18 15:34:28,910 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6117.1156ms 302 
+INFO  2019-01-18 15:34:28,927 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.6835ms 301 
+INFO  2019-01-18 15:34:28,933 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 15:34:28,969 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2201ms 200 text/html
+INFO  2019-01-18 15:34:29,002 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-18 15:34:29,005 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-18 15:34:29,021 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-18 15:34:29,022 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-01-18 15:34:29,023 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-01-18 15:34:29,068 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-01-18 15:34:29,071 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-01-18 15:34:29,076 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.589ms 200 application/javascript
+INFO  2019-01-18 15:34:29,077 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.3032ms 200 application/javascript
+INFO  2019-01-18 15:34:29,111 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-01-18 15:34:29,150 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.1813ms 200 text/css
+INFO  2019-01-18 15:34:29,274 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-01-18 15:34:29,289 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 271.7627ms 200 application/javascript
+INFO  2019-01-18 15:34:29,307 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-01-18 15:34:29,318 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 316.9873ms 200 application/javascript
+INFO  2019-01-18 15:34:29,650 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-18 15:34:29,970 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 320.0808ms 200 application/json;charset=utf-8
+DEBUG 2019-01-18 16:53:39,303 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 16:53:39,506 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 16:53:39,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.Web.Host.Startup.AbpTrainingWebHostModule, AbpTraining.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingWebCoreModule, AbpTraining.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingApplicationModule, AbpTraining.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.AbpTrainingCoreModule, AbpTraining.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AbpTraining.EntityFrameworkCore.AbpTrainingEntityFrameworkModule, AbpTraining.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:39,533 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 16:53:39,616 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 16:53:39,616 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 16:53:39,616 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpTraining (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 16:53:39,616 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 16:53:40,057 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AbpTraining.EntityFrameworkCore.AbpTrainingDbContext, AbpTraining.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 16:53:41,273 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 16:53:41,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 16:53:41,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 16:53:41,460 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpTraining
+DEBUG 2019-01-18 16:53:41,497 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 16:53:41,784 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 16:53:41,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-01-18 16:53:41,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 16:53:41,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 16:53:41,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Users.Dto.UserDto
+DEBUG 2019-01-18 16:53:41,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 16:53:41,850 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 16:53:41,850 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 16:53:41,850 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 16:53:41,850 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Roles.Dto.RoleDto
+DEBUG 2019-01-18 16:53:41,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Products.Dto.GetProductByNameOutput
+DEBUG 2019-01-18 16:53:41,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.Products.Dto.ProductDto
+DEBUG 2019-01-18 16:53:41,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 16:53:41,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AbpTraining.MultiTenancy.Dto.TenantDto
+INFO  2019-01-18 16:53:47,528 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-18 16:53:47,528 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 16:53:47,642 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.927ms 200 
+INFO  2019-01-18 16:53:52,057 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host)
+INFO  2019-01-18 16:53:53,323 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host) - Validation state: Valid
+INFO  2019-01-18 16:53:53,330 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.347ms.
+INFO  2019-01-18 16:53:53,629 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-01-18 16:53:53,647 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Web.Host.Controllers.HomeController.Index (AbpTraining.Web.Host) in 1581.7818ms
+INFO  2019-01-18 16:53:53,696 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6177.2887ms 302 
+INFO  2019-01-18 16:53:53,706 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 16:53:53,752 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.7197ms 200 text/html
+INFO  2019-01-18 16:53:53,783 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-18 16:53:53,788 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-18 16:53:53,793 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-18 16:53:53,803 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-01-18 16:53:53,805 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-01-18 16:53:53,837 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-18 16:53:53,844 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-18 16:53:53,850 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-01-18 16:53:53,852 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-18 16:53:53,855 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-01-18 16:53:53,860 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.8893ms 304 application/javascript
+INFO  2019-01-18 16:53:53,872 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.1688ms 304 application/javascript
+INFO  2019-01-18 16:53:53,876 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.8475ms 304 application/javascript
+INFO  2019-01-18 16:53:53,882 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.5437ms 304 text/css
+INFO  2019-01-18 16:53:53,895 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.4328ms 304 application/javascript
+INFO  2019-01-18 16:53:54,377 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-18 16:53:54,683 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.3077ms 200 application/json;charset=utf-8
+INFO  2019-01-18 16:59:56,125 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name=abc  
+INFO  2019-01-18 16:59:56,187 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+INFO  2019-01-18 16:59:57,102 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) with arguments (AbpTraining.Products.Dto.GetProductByNameInput) - Validation state: Valid
+WARN  2019-01-18 16:59:57,511 [33   ] Mvc.ExceptionHandling.AbpExceptionFilter - 商品(abc)不存在
+Abp.UI.UserFriendlyException: 商品(abc)不存在
+   at AbpTraining.Products.ProductDomainService.GetProductByName(String name) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Core\Products\ProductDomainService.cs:line 35
+   at AbpTraining.Products.ProductAppService.GetProductByName(GetProductByNameInput input) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Application\Products\ProductAppService.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-18 16:59:57,556 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 16:59:57,589 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 1399.7796ms
+INFO  2019-01-18 16:59:57,592 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1466.9496ms 500 application/json; charset=utf-8
+INFO  2019-01-18 17:02:00,736 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD%E6%B2%B9  
+INFO  2019-01-18 17:02:00,747 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+INFO  2019-01-18 17:02:00,779 [38   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) with arguments (AbpTraining.Products.Dto.GetProductByNameInput) - Validation state: Valid
+INFO  2019-01-18 17:02:00,889 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 107.0806ms.
+INFO  2019-01-18 17:02:00,992 [42   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:02:00,996 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 247.6529ms
+INFO  2019-01-18 17:02:01,002 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.8259ms 200 application/json; charset=utf-8
+INFO  2019-01-18 17:02:11,191 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD  
+INFO  2019-01-18 17:02:11,199 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+INFO  2019-01-18 17:02:11,232 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) with arguments (AbpTraining.Products.Dto.GetProductByNameInput) - Validation state: Valid
+WARN  2019-01-18 17:02:11,576 [42   ] Mvc.ExceptionHandling.AbpExceptionFilter - 商品(金龙鱼菜籽)不存在
+Abp.UI.UserFriendlyException: 商品(金龙鱼菜籽)不存在
+   at AbpTraining.Products.ProductDomainService.GetProductByName(String name) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Core\Products\ProductDomainService.cs:line 35
+   at AbpTraining.Products.ProductAppService.GetProductByName(GetProductByNameInput input) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Application\Products\ProductAppService.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-18 17:02:11,579 [42   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:02:11,581 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 380.0725ms
+INFO  2019-01-18 17:02:11,586 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 393.2765ms 500 application/json; charset=utf-8
+INFO  2019-01-18 17:02:28,928 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName  
+INFO  2019-01-18 17:02:28,934 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+WARN  2019-01-18 17:02:28,984 [40   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:02:28,985 [40   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-01-18 17:02:28,985 [40   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2019-01-18 17:02:29,392 [40   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:02:29,397 [40   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 460.1284ms
+INFO  2019-01-18 17:02:29,403 [40   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 474.158ms 400 application/json; charset=utf-8
+INFO  2019-01-18 17:02:29,446 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-18 17:02:29,459 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3689ms 404 
+INFO  2019-01-18 17:04:02,688 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name%20=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD%E6%B2%B9 application/json 666
+INFO  2019-01-18 17:04:02,700 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+WARN  2019-01-18 17:04:02,741 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:04:02,742 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-01-18 17:04:02,742 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2019-01-18 17:04:02,788 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:04:02,790 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 88.436ms
+INFO  2019-01-18 17:04:02,794 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.886ms 400 application/json; charset=utf-8
+INFO  2019-01-18 17:04:02,836 [48   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT49QNNMPS", Request id "0HLJT49QNNMPS:00000001": the application completed without reading the entire request body.
+INFO  2019-01-18 17:06:01,069 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name%20=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD%E6%B2%B9 application/json 666
+INFO  2019-01-18 17:06:01,075 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+WARN  2019-01-18 17:06:01,117 [57   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:06:01,117 [57   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-01-18 17:06:01,117 [57   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2019-01-18 17:06:01,121 [57   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:06:01,123 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 45.9669ms
+INFO  2019-01-18 17:06:01,127 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.8147ms 400 application/json; charset=utf-8
+INFO  2019-01-18 17:06:01,132 [57   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT49QNNMPT", Request id "0HLJT49QNNMPT:00000001": the application completed without reading the entire request body.
+INFO  2019-01-18 17:06:52,903 [58   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 51
+INFO  2019-01-18 17:06:52,918 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:06:52,920 [58   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:06:52,935 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core)
+INFO  2019-01-18 17:06:52,937 [58   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:06:52,939 [58   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:06:53,426 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) with arguments (AbpTraining.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-01-18 17:06:53,726 [57   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+INFO  2019-01-18 17:06:54,661 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 51
+INFO  2019-01-18 17:06:54,663 [53   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:06:54,666 [53   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:06:54,673 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core)
+INFO  2019-01-18 17:06:54,700 [53   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:06:54,702 [53   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:06:54,731 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) with arguments (AbpTraining.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-01-18 17:06:54,823 [58   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-01-18 17:06:55,611 [62   ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at AbpTraining.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at AbpTraining.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:06:55,612 [59   ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at AbpTraining.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at AbpTraining.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-18 17:06:55,614 [62   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:06:55,617 [59   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:06:55,625 [59   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) in 2687.2552ms
+INFO  2019-01-18 17:06:55,628 [62   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) in 949.4665ms
+INFO  2019-01-18 17:06:55,633 [62   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 970.6979ms 500 application/json; charset=utf-8
+INFO  2019-01-18 17:06:55,636 [59   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2728.1354ms 500 application/json; charset=utf-8
+INFO  2019-01-18 17:07:08,676 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-01-18 17:07:08,680 [55   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:07:08,682 [55   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:07:08,686 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core)
+INFO  2019-01-18 17:07:08,693 [55   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:07:08,696 [55   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:07:08,728 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) with arguments (AbpTraining.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-01-18 17:07:09,683 [58   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 952.9044ms.
+INFO  2019-01-18 17:07:09,946 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:07:09,950 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) in 1261.1623ms
+INFO  2019-01-18 17:07:09,954 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1276.4881ms 200 application/json; charset=utf-8
+INFO  2019-01-18 17:07:47,187 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2019-01-18 17:07:47,191 [53   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:07:47,195 [53   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:07:47,255 [53   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-18 17:07:47,461 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core)
+INFO  2019-01-18 17:07:47,463 [65   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-01-18 17:07:47,465 [65   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 17:07:47,517 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) with arguments (AbpTraining.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-01-18 17:07:48,032 [65   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 513.4959ms.
+INFO  2019-01-18 17:07:48,185 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:07:48,188 [53   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Controllers.TokenAuthController.Authenticate (AbpTraining.Web.Core) in 724.0772ms
+INFO  2019-01-18 17:07:48,194 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1004.1966ms 200 application/json; charset=utf-8
+INFO  2019-01-18 17:08:39,892 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name%20=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD%E6%B2%B9 application/json 666
+INFO  2019-01-18 17:08:39,895 [68   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-18 17:08:39,937 [64   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+WARN  2019-01-18 17:08:40,002 [68   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:08:40,002 [68   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-01-18 17:08:40,002 [68   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2019-01-18 17:08:40,013 [68   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:08:40,021 [68   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 76.8097ms
+INFO  2019-01-18 17:08:40,032 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.036ms 400 application/json; charset=utf-8
+INFO  2019-01-18 17:08:40,044 [68   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT49QNNMPU", Request id "0HLJT49QNNMPU:00000003": the application completed without reading the entire request body.
+INFO  2019-01-18 17:10:08,812 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name=%E9%87%91  
+INFO  2019-01-18 17:10:08,819 [69   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-18 17:10:08,844 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+INFO  2019-01-18 17:10:08,873 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) with arguments (AbpTraining.Products.Dto.GetProductByNameInput) - Validation state: Valid
+WARN  2019-01-18 17:10:09,093 [69   ] Mvc.ExceptionHandling.AbpExceptionFilter - 商品(金)不存在
+Abp.UI.UserFriendlyException: 商品(金)不存在
+   at AbpTraining.Products.ProductDomainService.GetProductByName(String name) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Core\Products\ProductDomainService.cs:line 35
+   at AbpTraining.Products.ProductAppService.GetProductByName(GetProductByNameInput input) in E:\abp\demo\ABPZERO_DEMO\AbpTraining\aspnet-core\src\AbpTraining.Application\Products\ProductAppService.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-18 17:10:09,095 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:10:09,099 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 251.3667ms
+INFO  2019-01-18 17:10:09,103 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 290.4007ms 500 application/json; charset=utf-8
+INFO  2019-01-18 17:16:11,407 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProductByName?Name%20=%E9%87%91%E9%BE%99%E9%B1%BC%E8%8F%9C%E7%B1%BD%E6%B2%B9&userNameOrEmailAddress=admin&password=123qwe application/json 666
+INFO  2019-01-18 17:16:11,412 [81   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-18 17:16:11,429 [81   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetProductByName", controller = "Product"}. Executing action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application)
+WARN  2019-01-18 17:16:11,470 [81   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-01-18 17:16:11,470 [81   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-01-18 17:16:11,470 [81   ] Mvc.ExceptionHandling.AbpExceptionFilter - The Name field is required. (Name)
+INFO  2019-01-18 17:16:11,474 [81   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 17:16:11,476 [81   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AbpTraining.Products.ProductAppService.GetProductByName (AbpTraining.Application) in 45.5403ms
+INFO  2019-01-18 17:16:11,480 [81   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.3343ms 400 application/json; charset=utf-8
+INFO  2019-01-18 17:16:11,484 [81   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT49QNNMQ0", Request id "0HLJT49QNNMQ0:00000001": the application completed without reading the entire request body.
